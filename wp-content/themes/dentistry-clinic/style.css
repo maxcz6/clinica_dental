@@ -1,0 +1,169 @@
+/*
+Theme Name: Dentistry Clinic
+Theme URI: https://www.ovationthemes.com/products/free-dentistry-wordpress-theme
+Author: pewilliams
+Author URI: https://www.ovationthemes.com/
+Description: Dentistry Clinic WordPress Theme is created with dentistry clinics keeping in mind. It includes everything you need to get your clinic up and running smoothly. From online appointment scheduling to a dental database, this theme has everything you need to create a website that is user-friendly and informative. And, because we know that page speed is important to you and your users, we have made sure that our theme is optimized for fast loading. This theme is best suited for medical stores, dental health services, drug stores, excellent for a dentist, hospital, medicine, doctors, dental clinic, photography, blog, newspaper medical facilities, pediatric and overall medial websites, doctors, surgeons, Finishing & Polishing, Glass Ionomer Restoratives, responsive and can cater to medical, health care, hospital, dentists, clinics, lab, therapy, healing, pharma, nursing, dispensary and surgery websites. You can integrate health related plugins such as appointment booking, Mapping, and others. Build your dental website today! Demo: https://trial.ovationthemes.com/dentistry-clinic/
+Version: 5.1
+Requires PHP: 5.6
+Tested up to: 6.8
+Requires at least: 5.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: dentistry-clinic
+Template: dental-insight
+Tags: blog, portfolio, photography, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, grid-layout, custom-colors, custom-background, custom-header, custom-menu, custom-logo, editor-style, sticky-post, featured-images, flexible-header, featured-image-header, footer-widgets, full-width-template, threaded-comments, theme-options, wide-blocks, block-styles, post-formats, translation-ready
+
+Dentistry Clinic WordPress Theme, Copyright 2022 pewilliams
+Dentistry Clinic is distributed under the terms of the GNU GPL
+
+Dentistry Clinic WordPress Theme is child theme of Dental Insight WordPress Theme, Copyright 2022 pewilliams
+Dental Insight WordPress Theme is distributed under the terms of the GNU GPL
+*/
+
+.top_header strong,h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --theme-primary-color:#00bcd5;
+    --theme-primary-light:#aceefe;
+    --theme-heading-color:#343434;
+    --theme-text-color:#959595;
+    --theme-primary-fade:#e8fcff;
+    --theme-footer-color:#343434;
+}
+
+/* Color Changes*/
+.top_bar, .top_header{
+    background: var(--theme-primary-color);
+}
+#slider .carousel-caption h2 {
+    color: var(--theme-primary-color) !important;
+}
+#sidebar a,#sidebar caption,#sidebar th,#sidebar td,#sidebar select,
+.top_bar a:hover,.top_bar span:hover,.top_header strong:hover,.info-box i:hover,.top_bar i:hover ,
+.gb_nav_menu li.page_item_has_children:after,.gb_nav_menu li.menu-item-has-children:after,
+.logo h1 a,.logo h1, .site-title, .site-title a,.logo p,.gb_nav_menu li a,a:hover, a:active,.box h4{
+    color: var(--theme-heading-color);
+}
+
+.scrollup.is-active:hover, .scrollup.is-active:focus,.info-box span a,
+.top_header, .top_bar a, .top_bar span, .top_header strong, .top_bar,.info-box i, .top_bar i,.box-btn a,.site-info{
+    color: #fff;
+}
+
+/*loader*/
+
+#gb_responsive {
+    justify-content: flex-end;
+}
+ul.sub-menu ul.sub-menu{
+    right: 100% !important;
+    left: auto !important;
+}
+#slider .carousel-caption h2,.box h4 {
+    font-weight: 500;
+}
+.box {
+    border: solid 2px #dfdfdf;
+    box-shadow: none;
+    margin-top: 3em;
+    position: relative;
+    padding-top: 4em;
+}
+.box:hover{
+    background: var(--theme-primary-light);
+}
+.img-box {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -30px;
+}
+.box:hover p,.box:hover h4{
+    color: #343434;
+}
+.box-btn a{
+    border-radius: 30px;
+    background-color: var(--theme-primary-light);
+    color: #343434;
+}
+#services-box .box i{
+    background-color: var(--theme-primary-light);
+    color: #343434;
+}
+ #services-box .box:hover i,.box:hover .box-btn a {
+    background-color: var(--theme-primary-color);
+    color: #fff;
+}
+/* Accessibility */
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+  outline: 0;
+}
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar ,.comment-author .avatar{
+    border-color: var(--theme-heading-color);
+}
+@media screen and (max-width:991px){
+    .gb_nav_menu ul ul{
+        background: transparent;
+    }
+    .gb_nav_menu ul li a:active, .gb_nav_menu ul li a:hover{
+        color: var(--theme-primary-color) !important;
+        border-radius: 0;
+    }
+}
+@media screen and (max-width: 720px) and (min-width: 320px){
+    .top_header,#colophon{
+      text-align: center;
+    }
+}
+@media screen and (max-width:575px){
+    #slider .carousel-caption {
+        right: 15% !important;
+        left: 15% !important;
+        text-align: center !important;
+    }
+    #slider .carousel-control-next-icon, #slider .carousel-control-prev-icon,#slider .carousel-control-next-icon:hover, #slider .carousel-control-prev-icon:hover{
+        padding: 0;
+        background: transparent;
+    }
+}
