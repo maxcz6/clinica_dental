@@ -1,6 +1,7 @@
 import { __, sprintf } from '@wordpress/i18n';
-import { Container, Skeleton, Text, LineChart, Button } from '@bsf/force-ui';
-import { ArrowDown, ArrowUp, ArrowUpRight } from 'lucide-react';
+import { Container, Skeleton, Text, LineChart } from '@bsf/force-ui';
+import { ExternalLink } from '@wordpress/components';
+import { ArrowDown, ArrowUp } from 'lucide-react';
 import {
 	cn,
 	formatNumber,
@@ -38,7 +39,7 @@ const ClicksAndImpressions = ( { item, isLoading } ) => {
 	return (
 		<Container.Item
 			key={ item.label }
-			className="px-3 py-3 space-y-2 w-full h-full bg-background-primary rounded-md shadow-sm border-0.5 border-solid border-border-subtle"
+			className="px-3 py-3 space-y-2 w-full h-full bg-background-primary shadow-sm rounded-sm border-0.5 border-solid border-[#C3C4C7]"
 		>
 			<Container
 				align="center"
@@ -106,7 +107,7 @@ const TrafficDisplay = () => {
 	return (
 		<>
 			<Container direction="column" className="gap-2">
-				<div className="p-2 w-full rounded-md bg-background-primary shadow-sm border-0.5 border-solid border-border-subtle">
+				<div className="p-2 w-full bg-background-primary shadow-sm rounded-sm border-0.5 border-solid border-[#C3C4C7]">
 					<Container
 						gap="none"
 						justify="between"
@@ -137,17 +138,12 @@ const TrafficDisplay = () => {
 								) }
 							/>
 						</div>
-						<Button
-							className="no-underline hover:underline"
-							variant="link"
-							size="sm"
-							icon={ <ArrowUpRight /> }
-							iconPosition="right"
-							tag="a"
+						<ExternalLink
+							className="text-xs font-semibold [&>span]:no-underline [&:hover>:first-child]:underline"
 							href={ settingsPageURL }
 						>
 							{ __( 'View More', 'surerank' ) }
-						</Button>
+						</ExternalLink>
 					</Container>
 					{ isLoading && (
 						<Skeleton
@@ -188,13 +184,13 @@ const TrafficDisplay = () => {
 						<LineChart
 							colors={ [
 								{
-									stroke: '#4B3BED',
+									stroke: '#2171B1',
 								},
 								{
-									stroke: '#38BDF8',
+									stroke: '#72AEE6',
 								},
 							] }
-							yAxisFontColor={ [ '#4B3BED', '#38BDF8' ] }
+							yAxisFontColor={ [ '#2171B1', '#72AEE6' ] }
 							data={ siteTraffic }
 							dataKeys={ [ 'impressions', 'clicks' ] }
 							showTooltip

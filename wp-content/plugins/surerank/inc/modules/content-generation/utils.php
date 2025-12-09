@@ -59,20 +59,27 @@ class Utils {
 	 * @since 1.4.2
 	 */
 	public function prepare_content_inputs( $id = null, $is_taxonomy = false ) {
-		$title = '';
+		$title   = '';
+		$content = '';
 
 		if ( ! empty( $id ) ) {
 			if ( $is_taxonomy ) {
 				$term = get_term( $id );
 				if ( $term && ! is_wp_error( $term ) ) {
-					$title = $term->name;
+					$title   = $term->name;
+					$content = $term->description;
 				}
 			} else {
 				$post = get_post( $id );
 				if ( $post ) {
-					$title = get_the_title( $id );
+					$title   = get_the_title( $id );
+					$content = $post->post_content;
 				}
 			}
+		}
+		// Limit to 500 words (wp_trim_words handles tag stripping and whitespace).
+		if ( ! empty( $content ) ) {
+			$content = wp_trim_words( $content, 500, '' );
 		}
 
 		return apply_filters(
@@ -81,6 +88,7 @@ class Utils {
 				'site_name'     => get_bloginfo( 'name' ),
 				'site_tagline'  => get_bloginfo( 'description' ),
 				'page_title'    => $title,
+				'page_content'  => $content,
 				'focus_keyword' => $this->get_focus_keyword( $id, $is_taxonomy ),
 			]
 		);

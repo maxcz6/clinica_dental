@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: SureRank SEO 1.5.0\n"
+"Project-Id-Version: SureRank SEO 1.5.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/surerank\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-11-25T04:56:35+00:00\n"
+"POT-Creation-Date: 2025-12-09T07:23:34+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: surerank\n"
@@ -2821,46 +2821,46 @@ msgstr ""
 msgid "Invalid post ID"
 msgstr ""
 
-#: inc/modules/content-generation/controller.php:67
+#: inc/modules/content-generation/controller.php:68
 msgid "Unable to generate content at this time. Please check your input and try again, or contact support if you need help."
 msgstr ""
 
 #. translators: %s is response code
-#: inc/modules/content-generation/controller.php:73
+#: inc/modules/content-generation/controller.php:74
 #, php-format
 msgid "Failed to generate content with error code %s."
 msgstr ""
 
-#: inc/modules/content-generation/controller.php:85
+#: inc/modules/content-generation/controller.php:86
 msgid "Unable to generate content at this time. Please try again, or contact support if you need help."
 msgstr ""
 
-#: inc/modules/content-generation/utils.php:151
+#: inc/modules/content-generation/utils.php:159
 msgid "No authentication data found."
 msgstr ""
 
-#: inc/modules/content-generation/utils.php:155
+#: inc/modules/content-generation/utils.php:163
 msgid "No data found for the provided key."
 msgstr ""
 
-#: inc/modules/content-generation/utils.php:169
+#: inc/modules/content-generation/utils.php:177
 msgid "Something went wrong on our end. Please try again in a moment, or contact support if you need help."
 msgstr ""
 
-#: inc/modules/content-generation/utils.php:170
+#: inc/modules/content-generation/utils.php:178
 msgid "You've reached your free usage limit. Upgrade to Pro for additional credits to continue generating content. require_pro"
 msgstr ""
 
-#: inc/modules/content-generation/utils.php:171
+#: inc/modules/content-generation/utils.php:179
 #: build/seo-popup/index.js:1
 msgid "You've used all your AI credits for today. Your credits will refresh automatically tomorrow, so you can continue creating content."
 msgstr ""
 
-#: inc/modules/content-generation/utils.php:188
+#: inc/modules/content-generation/utils.php:196
 msgid "No authentication token found. Please connect your account."
 msgstr ""
 
-#: inc/modules/content-generation/utils.php:196
+#: inc/modules/content-generation/utils.php:204
 msgid "Failed to encode request data to JSON."
 msgstr ""
 

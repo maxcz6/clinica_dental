@@ -775,7 +775,7 @@ export const getSeoCheckLabel = ( type, counts ) => {
 	}
 	if ( type === 'warning' ) {
 		return sprintf(
-			// translators: %1$s is the number of issues detected, %2$s is the word "Issue".
+			// translators: %1$s is the number of warnings detected, %2$s is the word "Warning".
 			'%1$s %2$s',
 			counts,
 			_n( 'Warning', 'Warnings', counts, 'surerank' )

@@ -6664,11 +6664,11 @@ msgstr "Verifikasi Nonce gagal"
 msgid "No user email found in the decrypted data."
 msgstr "Tidak ditemukan email pengguna dalam data yang didekripsi"
 
-#: inc/modules/content-generation/utils.php:151
+#: inc/modules/content-generation/utils.php:159
 msgid "No authentication data found."
 msgstr "Data otentikasi tidak ditemukan"
 
-#: inc/modules/content-generation/utils.php:155
+#: inc/modules/content-generation/utils.php:163
 msgid "No data found for the provided key."
 msgstr "Tidak ditemukan data untuk kunci yang diberikan"
 
@@ -6692,7 +6692,7 @@ msgid "Invalid post ID"
 msgstr "ID pos tidak valid"
 
 #. translators: %s is response code
-#: inc/modules/content-generation/controller.php:73
+#: inc/modules/content-generation/controller.php:74
 #, php-format
 msgid "Failed to generate content with error code %s."
 msgstr "Gagal membuat konten dengan kode error %s"
@@ -6787,7 +6787,7 @@ msgstr "ID term tidak valid"
 msgid "Invalid term ID provided"
 msgstr "ID term yang diberikan tidak valid"
 
-#: inc/modules/content-generation/utils.php:188
+#: inc/modules/content-generation/utils.php:196
 msgid "No authentication token found. Please connect your account."
 msgstr "Token otentikasi tidak ditemukan. Silakan hubungkan akun Anda."
 
@@ -7031,15 +7031,15 @@ msgstr "Popup diblokir. Mengalihkan ke autentikasi…"
 msgid "Connect SureRank AI"
 msgstr "Hubungkan SureRank AI"
 
-#: inc/modules/content-generation/controller.php:67
+#: inc/modules/content-generation/controller.php:68
 msgid "Unable to generate content at this time. Please check your input and try again, or contact support if you need help."
 msgstr "Tidak dapat menghasilkan konten saat ini. Silakan periksa input Anda dan coba lagi, atau hubungi dukungan jika Anda membutuhkan bantuan."
 
-#: inc/modules/content-generation/utils.php:169
+#: inc/modules/content-generation/utils.php:177
 msgid "Something went wrong on our end. Please try again in a moment, or contact support if you need help."
 msgstr "Terjadi kesalahan di pihak kami. Silakan coba lagi sebentar lagi, atau hubungi dukungan jika Anda membutuhkan bantuan."
 
-#: inc/modules/content-generation/controller.php:85
+#: inc/modules/content-generation/controller.php:86
 msgid "Unable to generate content at this time. Please try again, or contact support if you need help."
 msgstr "Tidak dapat menghasilkan konten saat ini. Silakan coba lagi, atau hubungi dukungan jika Anda membutuhkan bantuan."
 
@@ -7274,16 +7274,16 @@ msgstr "Deskripsi bisnis dari situs web."
 msgid "# SureRank will generate robots.txt automatically."
 msgstr "# SureRank akan secara otomatis menghasilkan robots.txt."
 
-#: inc/modules/content-generation/utils.php:170
+#: inc/modules/content-generation/utils.php:178
 msgid "You've reached your free usage limit. Upgrade to Pro for additional credits to continue generating content. require_pro"
 msgstr "Anda telah mencapai batas penggunaan gratis Anda. Tingkatkan ke Pro untuk kredit tambahan agar dapat terus menghasilkan konten. require_pro"
 
-#: inc/modules/content-generation/utils.php:171
+#: inc/modules/content-generation/utils.php:179
 #: build/seo-popup/index.js:1
 msgid "You've used all your AI credits for today. Your credits will refresh automatically tomorrow, so you can continue creating content."
 msgstr "Anda telah menggunakan semua kredit AI Anda hari ini. Kredit Anda akan diperbarui secara otomatis besok, sehingga Anda dapat terus membuat konten."
 
-#: inc/modules/content-generation/utils.php:196
+#: inc/modules/content-generation/utils.php:204
 msgid "Failed to encode request data to JSON."
 msgstr "Gagal mengkodekan data permintaan ke JSON."
 

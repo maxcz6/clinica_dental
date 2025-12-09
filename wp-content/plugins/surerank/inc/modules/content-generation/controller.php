@@ -42,8 +42,9 @@ class Controller {
 				'page_title'    => '',
 				'site_tagline'  => '',
 				'site_name'     => '',
+				'page_content'  => '',
 				'focus_keyword' => '',
-			] 
+			]
 		);
 
 		$args = [

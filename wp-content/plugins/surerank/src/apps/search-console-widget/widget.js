@@ -80,7 +80,7 @@ const Widget = () => {
 							percentageType: getPercentageType(
 								clicks?.percentage
 							),
-							color: 'bg-sky-500',
+							color: 'bg-[#72AEE6]',
 						},
 						{
 							label: __( 'Impressions', 'surerank' ),
@@ -90,7 +90,7 @@ const Widget = () => {
 							percentageType: getPercentageType(
 								impressions?.percentage
 							),
-							color: 'bg-background-brand',
+							color: 'bg-[#2171B1]',
 						},
 					],
 				} );

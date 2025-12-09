@@ -6664,11 +6664,11 @@ msgstr "Verifica del nonce fallita"
 msgid "No user email found in the decrypted data."
 msgstr "Nessuna email utente trovata nei dati decriptati"
 
-#: inc/modules/content-generation/utils.php:151
+#: inc/modules/content-generation/utils.php:159
 msgid "No authentication data found."
 msgstr "Nessun dato di autenticazione trovato"
 
-#: inc/modules/content-generation/utils.php:155
+#: inc/modules/content-generation/utils.php:163
 msgid "No data found for the provided key."
 msgstr "Nessun dato trovato per la chiave fornita"
 
@@ -6692,7 +6692,7 @@ msgid "Invalid post ID"
 msgstr "ID del post non valido"
 
 #. translators: %s is response code
-#: inc/modules/content-generation/controller.php:73
+#: inc/modules/content-generation/controller.php:74
 #, php-format
 msgid "Failed to generate content with error code %s."
 msgstr "Impossibile generare il contenuto con il codice di errore %s"
@@ -6787,7 +6787,7 @@ msgstr "ID termine non valido"
 msgid "Invalid term ID provided"
 msgstr "ID termine fornito non valido"
 
-#: inc/modules/content-generation/utils.php:188
+#: inc/modules/content-generation/utils.php:196
 msgid "No authentication token found. Please connect your account."
 msgstr "Nessun token di autenticazione trovato. Si prega di collegare il proprio account."
 
@@ -7031,15 +7031,15 @@ msgstr "Popup bloccato. Reindirizzamento all'autenticazione…"
 msgid "Connect SureRank AI"
 msgstr "Connetti SureRank AI"
 
-#: inc/modules/content-generation/controller.php:67
+#: inc/modules/content-generation/controller.php:68
 msgid "Unable to generate content at this time. Please check your input and try again, or contact support if you need help."
 msgstr "Impossibile generare contenuti in questo momento. Controlla il tuo input e riprova, oppure contatta il supporto se hai bisogno di aiuto."
 
-#: inc/modules/content-generation/utils.php:169
+#: inc/modules/content-generation/utils.php:177
 msgid "Something went wrong on our end. Please try again in a moment, or contact support if you need help."
 msgstr "Qualcosa è andato storto da parte nostra. Riprova tra un momento, oppure contatta il supporto se hai bisogno di aiuto."
 
-#: inc/modules/content-generation/controller.php:85
+#: inc/modules/content-generation/controller.php:86
 msgid "Unable to generate content at this time. Please try again, or contact support if you need help."
 msgstr "Impossibile generare contenuti in questo momento. Riprova, oppure contatta il supporto se hai bisogno di aiuto."
 
@@ -7274,16 +7274,16 @@ msgstr "Descrizione del sito web."
 msgid "# SureRank will generate robots.txt automatically."
 msgstr "# SureRank genererà automaticamente il file robots.txt."
 
-#: inc/modules/content-generation/utils.php:170
+#: inc/modules/content-generation/utils.php:178
 msgid "You've reached your free usage limit. Upgrade to Pro for additional credits to continue generating content. require_pro"
 msgstr "Hai raggiunto il limite di utilizzo gratuito. Passa a Pro per ulteriori crediti e continuare a generare contenuti. require_pro"
 
-#: inc/modules/content-generation/utils.php:171
+#: inc/modules/content-generation/utils.php:179
 #: build/seo-popup/index.js:1
 msgid "You've used all your AI credits for today. Your credits will refresh automatically tomorrow, so you can continue creating content."
 msgstr "Hai esaurito tutti i crediti AI per oggi. I tuoi crediti si aggiorneranno automaticamente domani, così potrai continuare a creare contenuti."
 
-#: inc/modules/content-generation/utils.php:196
+#: inc/modules/content-generation/utils.php:204
 msgid "Failed to encode request data to JSON."
 msgstr "Impossibile codificare i dati della richiesta in JSON."
 

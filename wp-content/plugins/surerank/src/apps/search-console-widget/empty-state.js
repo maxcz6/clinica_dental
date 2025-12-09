@@ -1,5 +1,6 @@
 import { __ } from '@wordpress/i18n';
-import { Button, Container, Label } from '@bsf/force-ui';
+import { Container, Label } from '@bsf/force-ui';
+import { Button } from '@wordpress/components';
 
 /**
  * Empty State Component
@@ -53,8 +54,7 @@ const EmptyState = () => {
 			</Container.Item>
 			<Button
 				variant="primary"
-				size="md"
-				className="focus:[box-shadow:none]"
+				size="default"
 				onClick={ handleConnect }
 			>
 				{ __( 'Connect to Google Search Console', 'surerank' ) }

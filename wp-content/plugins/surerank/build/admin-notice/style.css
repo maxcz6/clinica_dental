@@ -1906,6 +1906,10 @@
 #surerank-root .border-none, .surerank-root .border-none {
 	border-style: none;
 }
+#surerank-root .border-\[\#C3C4C7\], .surerank-root .border-\[\#C3C4C7\] {
+	--tw-border-opacity: 1;
+	border-color: rgb(195 196 199 / var(--tw-border-opacity, 1));
+}
 #surerank-root .border-alert-border-danger, .surerank-root .border-alert-border-danger {
 	--tw-border-opacity: 1;
 	border-color: rgb(252 165 165 / var(--tw-border-opacity, 1));
@@ -2049,6 +2053,14 @@
 }
 #surerank-root .border-t-transparent, .surerank-root .border-t-transparent {
 	border-top-color: transparent;
+}
+#surerank-root .bg-\[\#2171B1\], .surerank-root .bg-\[\#2171B1\] {
+	--tw-bg-opacity: 1;
+	background-color: rgb(33 113 177 / var(--tw-bg-opacity, 1));
+}
+#surerank-root .bg-\[\#72AEE6\], .surerank-root .bg-\[\#72AEE6\] {
+	--tw-bg-opacity: 1;
+	background-color: rgb(114 174 230 / var(--tw-bg-opacity, 1));
 }
 #surerank-root .bg-alert-background-danger, .surerank-root .bg-alert-background-danger {
 	--tw-bg-opacity: 1;
@@ -4880,6 +4892,9 @@
 	--tw-border-opacity: 1;
 	border-color: rgb(107 114 128 / var(--tw-border-opacity, 1));
 }
+#surerank-root .\[\&\:hover\>\:first-child\]\:underline:hover>:first-child, .surerank-root .\[\&\:hover\>\:first-child\]\:underline:hover>:first-child {
+	text-decoration-line: underline;
+}
 #surerank-root .\[\&\:is\(\[data-hover\=true\]\)\]\:rounded-none:is([data-hover=true]), .surerank-root .\[\&\:is\(\[data-hover\=true\]\)\]\:rounded-none:is([data-hover=true]) {
 	border-radius: 0px;
 }
@@ -5055,6 +5070,9 @@
 #surerank-root .\[\&\>span\]\:px-0>span, .surerank-root .\[\&\>span\]\:px-0>span {
 	padding-left: 0px;
 	padding-right: 0px;
+}
+#surerank-root .\[\&\>span\]\:no-underline>span, .surerank-root .\[\&\>span\]\:no-underline>span {
+	text-decoration-line: none;
 }
 #surerank-root .\[\&\>svg\>path\]\:stroke-border-subtle>svg>path, .surerank-root .\[\&\>svg\>path\]\:stroke-border-subtle>svg>path {
 	stroke: #E5E7EB;
